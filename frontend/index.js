@@ -36,7 +36,7 @@ const renderData = (data) => {
 
     const InfoMetaDiv = document.createElement("div");
     InfoMetaDiv.className = "item-list__info-meta";
-    InfoMetaDiv.innerText = obj.place + " " + calcTime(obj.insertAt);
+    InfoMetaDiv.innerText = obj.place + " • " + calcTime(obj.insertAt);
 
     const InfoPriceDiv = document.createElement("div");
     InfoPriceDiv.className = "item-list__info-price";

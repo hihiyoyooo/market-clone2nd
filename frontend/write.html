@@ -4,31 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>글쓰기 페이지</title>
+    <link rel="stylesheet" href="./css/write.css" />
   </head>
   <body>
     <form id="write-form">
-      <div>
+      <div class="write-img__label">
         <label for="image">이미지</label>
-        <input type="file" id="image" name="image" />
+        <div>
+          <input type="file" id="image" name="image" />
+        </div>
       </div>
-      <div>
+      <div class="write-title__label">
         <label for="title">제목</label>
-        <input type="text" id="title" name="title" />
+        <div>
+          <input type="text" id="title" name="title" placeholder="제목" />
+        </div>
       </div>
-      <div>
+      <div class="write-price__label">
         <label for="price">가격</label>
-        <input type="number" id="price" name="price" />
+        <div>
+          <input
+            type="number"
+            id="price"
+            name="price"
+            placeholder="₩ 가격을 입력해주세요."
+          />
+        </div>
       </div>
-      <div>
-        <label for="description">설명</label>
-        <input type="text" id="description" name="description" />
+      <div class="write-description__label">
+        <label for="description">자세한 설명</label>
+        <div>
+          <input
+            type="text"
+            id="description"
+            name="description"
+            placeholder="내용을 작성해주세요"
+          />
+        </div>
       </div>
-      <div>
+      <div class="write-place__label">
         <label for="place">장소</label>
-        <input type="text" id="place" name="place" />
+        <div>
+          <input
+            type="text"
+            id="place"
+            name="place"
+            placeholder="거래 희망 장소"
+          />
+        </div>
       </div>
-      <div>
-        <button type="submit">글쓰기 완료</button>
+      <div id="write-btn">
+        <button type="submit">작성 완료</button>
       </div>
     </form>
     <script src="/write.js"></script>
