@@ -1,0 +1,32 @@
+input {
+  width: 300px;
+  height: 25px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+}
+
+form div {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#image {
+  border: none;
+}
+
+#write-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#write-btn button {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(254, 111, 15);
+  color: white;
+  cursor: pointer;
+}
